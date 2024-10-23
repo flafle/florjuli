@@ -1,0 +1,236 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    font-family: Plus Jakarta Sans;
+    
+}
+.navbar{
+    background-color:#F9FADD;
+    width: 100%;
+    font-size: 36px;
+    height: 15vh;
+    padding: 0 2rem;
+    opacity: 0.7  ;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+p .juliflor{
+    font-size: 50px;
+    margin-bottom: 3em;
+}
+
+.fondo{
+    background-image: url(assets/fondo\ pagina.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .banner{
+    display: flex;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+} */
+ .wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/FyJ\ 0051.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 80px;
+  
+   
+ }
+.wrap-texto{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+    text-align: start;
+    font-size: 80px;
+    padding: 30px;
+    margin-left: 0.2em;
+  
+}
+p.juliflor{
+    margin: 7px, 7px;
+    padding: 10px;
+    background-color: #909365;
+   
+}
+.wrap-texto h1{
+    font-size: 80px;
+    margin-right: 5em;
+    
+}
+.wrap-texto p{
+  margin-right: 6em;
+  margin-top: 1em;
+}
+h1{
+    font-size: 80px;
+    margin-right: 5em;
+    
+}
+p{
+  margin-right: 6em;
+  margin-top: 1em;
+ 
+}
+
+/* dar el ancho y alto a cada seccion */
+
+.uno {
+    width: 120%;
+    height: 70vh;
+    background-color:#F9FADD;
+    opacity: 0.8 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #909365;
+    font-size: 40px;
+    
+}
+div.calendarioData{
+    width: 100%;
+    height: 90vh;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #909365;
+    font-size: 40px;
+  
+}
+li{
+    list-style: none;
+}
+div.tresSpoti{
+    width: 120%;
+    height: 100vh;
+    background-color:#F9FADD;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #909365;
+    font-size: 50px;
+}
+button.boton2{
+   margin-right: 14em;
+   
+}
+.cuatroIg{
+    width: 100%;
+    height: 70vh;
+   margin-left:4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #909365;
+    font-size: 50px;
+}
+button.boton3{
+    margin-right: 14em;
+
+}
+.cuatro .cuatroAlias{
+    letter-spacing: 0.1em;
+}
+.cincoRegalo{
+    width: 120%;
+    height: 60vh;
+    background-color:#F9FADD;
+    opacity: 0.8 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #909365;
+    font-size: 50px;
+}
+
+.alias  {
+    font-weight:bold;
+    letter-spacing: 0.05em;
+    text-align: start;
+}
+.toriflorfi{
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+   
+}
+.nombre{
+    font-weight:bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 2em;
+
+}
+
+.nombreFlorencia{
+    letter-spacing: 0.05em;
+}
+
+
+button{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 32px;
+    background-color: #E7B800;
+    color: #F9FADD;
+    border: none;
+
+}
+
+
+.pie{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    color: #909365;
+    font-size: 40px;
+    padding: 20px;
+  
+}
